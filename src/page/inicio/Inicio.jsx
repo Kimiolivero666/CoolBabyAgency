@@ -14,8 +14,8 @@ const Inicio = () => {
                     <Row>
                         <Col>
                             <h2 className='titulo1'>SOMOS UNA AGENCIA</h2>
-                            <h2>DE PUBLICIDAD, DISEÑO</h2>
-                            <h2>SOMOS <span className='ultimo-titulo'>COOL BABY</span></h2>
+                            <h2>DE PUBLICIDAD Y DISEÑO.</h2>
+                            <h2>SOMOS <span className='ultimo-titulo'>COOL BABY.</span></h2>
                         </Col>
                     </Row>
                 </Container>

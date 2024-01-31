@@ -6,7 +6,7 @@
 }
 
 .logo{
-    width: 100px;
+    width: 150px;
 }
 
 .toggler-icon {
@@ -63,7 +63,7 @@
 
 .menu-content {
     position: absolute;
-    top: 50%;
+    top: 60%;
     /* Alinea el menú verticalmente */
     left: 50%;
     /* Alinea el menú horizontalmente */
@@ -96,7 +96,8 @@
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    transition: color 0.3s ease; /* Transición de color */
+    transition: color 0.3s ease;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .menu-content ul .li::before {
@@ -111,8 +112,13 @@
     transition: background-color 0.8s ease; /* Transición de color de fondo */
 }
 
+.menu-content ul .li:hover{
+    
+    color: #00f9ff ;
+}
+
 .menu-content ul .li:hover::before {
-    background-color: #f1f239; /* Color de fondo al pasar el mouse */
-    border-radius: 50%; /* Transición a un círculo */
+
+    background-color: black;
 }
 
